@@ -1,0 +1,15 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.arena.software.xand0.SettingsActivity$SettingsPreferenceFragment"
+        android:icon="@drawable/settings"
+        android:title="@string/pref_header_settings" />
+
+    <header
+        android:fragment="com.arena.software.xand0.SettingsActivity$ScoresPreferenceFragment"
+        android:icon="@drawable/scores"
+        android:title="@string/pref_header_scores" />
+
+</preference-headers>

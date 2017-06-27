@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="0dp"
+    tools:context="com.arena.software.xand0.GameActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutLabels"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_padding_top">
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_string"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="@dimen/text_size"/>
+
+    </RelativeLayout >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:id="@+id/layoutTable"
+        android:layout_below="@+id/layoutLabels"
+        android:paddingTop="@dimen/activity_padding_top">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="@dimen/table_size"
+            android:layout_height="@dimen/table_size">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/row1text1"
+                    android:layout_width="@dimen/cell_size"
+                    android:layout_height="@dimen/cell_size"
+                    android:background="@drawable/cell_shape"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onTextViewClick"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/row1text2"
+                    android:layout_width="@dimen/cell_size"
+                    android:layout_height="@dimen/cell_size"
+                    android:background="@drawable/cell_shape"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onTextViewClick"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/row1text3"
+                    android:layout_width="@dimen/cell_size"
+                    android:layout_height="@dimen/cell_size"
+                    android:background="@drawable/cell_shape"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onTextViewClick"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="normal|bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/row2text1"
+                    android:layout_width="@dimen/cell_size"
+                    android:layout_height="@dimen/cell_size"
+                    android:background="@drawable/cell_shape"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onTextViewClick"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/row2text2"
+                    android:layout_width="@dimen/cell_size"
+                    android:layout_height="@dimen/cell_size"
+                    android:background="@drawable/cell_shape"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onTextViewClick"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/row2text3"
+                    android:layout_width="@dimen/cell_size"
+                    android:layout_height="@dimen/cell_size"
+                    android:background="@drawable/cell_shape"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onTextViewClick"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="normal|bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/row3text1"
+                    android:layout_width="@dimen/cell_size"
+                    android:layout_height="@dimen/cell_size"
+                    android:background="@drawable/cell_shape"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onTextViewClick"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/row3text2"
+                    android:layout_width="@dimen/cell_size"
+                    android:layout_height="@dimen/cell_size"
+                    android:background="@drawable/cell_shape"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onTextViewClick"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/row3text3"
+                    android:layout_width="@dimen/cell_size"
+                    android:layout_height="@dimen/cell_size"
+                    android:background="@drawable/cell_shape"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onTextViewClick"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="normal|bold" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:id="@+id/layoutButton"
+        android:layout_below="@+id/layoutTable"
+        android:paddingTop="@dimen/activity_padding_top">
+
+        <Button
+            android:id="@+id/reset"
+            style="@android:style/Widget.Button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:allowUndo="false"
+            android:elevation="0dp"
+            android:onClick="newGame"
+            android:text="@string/new_game"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="@dimen/button_text_size"
+            android:textAllCaps="false"
+            android:background="@drawable/button_bckg"
+            android:minHeight="@dimen/button_text_size"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/layoutButton"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/activity_padding_top">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+        </RelativeLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

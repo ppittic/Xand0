@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">X and 0</string>
+    <string name="welcome_string">X and 0</string>
+    <string name="radio_easy">Easy</string>
+    <string name="radio_medium">Medium</string>
+    <string name="radio_hard">Hard</string>
+    <string name="equal_match">DRAW</string>
+    <string name="lose">LOSE</string>
+    <string name="win">WIN</string>
+    <string name="computer_first">Computer moves first</string>
+    <string name="title_activity_settings">Options</string>
+    <string name="new_game">New game</string>
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_settings">Settings</string>
+
+    <string name="pref_title_computer_first">Computer moves first</string>
+    <string name="pref_description_computer_first">Choose who starts the game - Computer or User
+    </string>
+
+    <string name="pref_title_difficulty">Choose game difficulty</string>
+    <string-array name="pref_difficulty_titles">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="pref_difficulty_values">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+    <!-- Example settings for Scores -->
+    <string name="pref_header_scores">Scores</string>
+    <string name="pref_title_reset_scores">Reset scores</string>
+
+    <string name="pref_win">0</string>
+    <string name="win_score">win_score</string>
+    <string name="pref_win_title">WIN</string>
+
+    <string name="pref_equal_match">0</string>
+    <string name="pref_equal_match_title">DRAW</string>
+    <string name="equal_match_score">equal_match_score</string>
+
+    <string name="pref_lose">0</string>
+    <string name="pref_lose_title">LOSE</string>
+    <string name="lose_score">lose_score</string>
+
+    <!--About-->
+    <string name="pref_header_about">About</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="game_rules">Game rules</string>
+    <string name="game_rules_content">X and 0 game is played by two users(In this application one of the users is the Computer/AI. Each one has a sign (X or 0) assigned. First one to fill a line/diagonal with assigned sign wins.</string>
+
+
+    <string name="difficulty_levels">Difficulty levels</string>
+    <string name="difficulty_levels_content">The users can change the game\'s difficulty level from the Options-Settings: Easy, Medium and Hard (or Impossible! Muhaha)</string>
+
+    <string name="start_game">Who starts the game</string>
+    <string name="start_game_content">The first one to move can be the user or the Computer/AI. By default the User starts, but this can be changed in the Options-Settings Section</string>
+
+
+    <string name="reset_scores">Reset scores</string>
+    <string name="reset_scores_content">Scores are saved when each game is completed. User has the ability to reset the scores by switching Scores Reset option to ON (In the Options-Scores Section)</string>
+
+    <!--Add-->
+    <string name="banner_ad_unit_id">ca-app-pub-7089173816597376/7755351044</string>
+    <string name="title_activity_in_app_purchase">Support</string>
+
+    <!--Support-->
+    <string name="supportText0">Hope you enjoyed our game!</string>
+    <string name="supportText1">We are passionate freelancers, trying to follow their dream. We want to develop great apps and games and since this requires plenty of time and resources, any help (big or small) is very much appreciated!</string>
+    <string name="supportText2">Support us and we\'ll do our best to make you smile with our surprise and with our future work!</string>
+    <string name="supportText3">Much love from the Software Arena team! </string>
+
+    <string name="ok_button">Thank you very much! (Return to game)</string>
+
+    <string name="facebook_app_id">606868019511650</string>
+</resources>

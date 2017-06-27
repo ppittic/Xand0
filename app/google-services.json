@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "38192979440",
+    "firebase_url": "https://xand0-ea384.firebaseio.com",
+    "project_id": "xand0-ea384",
+    "storage_bucket": "xand0-ea384.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38192979440:android:ed139bb52d5f8fca",
+        "android_client_info": {
+          "package_name": "com.arena.software.xand0"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38192979440-l1sufa7d5t5qi5jg14568tcesginn1il.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arena.software.xand0",
+            "certificate_hash": "13FEB4FDF54CEE45349387C64BC6509002F0B8BB"
+          }
+        },
+        {
+          "client_id": "38192979440-6kofqk0vuildfun6753m5n6ue2juq41n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnO2Lo41Llz5ruBJ9Q_Zy8Q0DFKbqIiPI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38192979440-6kofqk0vuildfun6753m5n6ue2juq41n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

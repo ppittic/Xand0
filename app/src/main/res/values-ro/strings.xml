@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">X si 0</string>
+    <string name="welcome_string">X si 0</string>
+    <string name="radio_easy">Usor</string>
+    <string name="radio_medium">Mediu</string>
+    <string name="radio_hard">Greu</string>
+    <string name="equal_match">EGALITATE</string>
+    <string name="lose">PIERDUT</string>
+    <string name="win">CASTIGAT</string>
+    <string name="computer_first">Calculatorul muta primul</string>
+    <string name="title_activity_settings">Optiuni</string>
+    <string name="new_game">Joc nou</string>
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_settings">Setari</string>
+
+    <string name="pref_title_computer_first">Calculatorul muta primul</string>
+    <string name="pref_description_computer_first">Alege cine muta primul - Calculatorul sau jucatorul
+    </string>
+
+    <string name="pref_title_difficulty">Alege nivelul de dificultate</string>
+    <string-array name="pref_difficulty_titles">
+        <item>Usor</item>
+        <item>Mediu</item>
+        <item>Greu</item>
+    </string-array>
+    <string-array name="pref_difficulty_values">
+        <item>Usor</item>
+        <item>Mediu</item>
+        <item>Greu</item>
+    </string-array>
+
+    <!-- Example settings for Scores -->
+    <string name="pref_header_scores">Scoruri</string>
+    <string name="pref_title_reset_scores">Reseteaza scorurile</string>
+
+    <string name="pref_win">0</string>
+    <string name="win_score">win_score</string>
+    <string name="pref_win_title">CASTIGAT</string>
+
+    <string name="pref_equal_match">0</string>
+    <string name="pref_equal_match_title">EGALITATE</string>
+    <string name="equal_match_score">equal_match_score</string>
+
+    <string name="pref_lose">0</string>
+    <string name="pref_lose_title">PIERDUT</string>
+    <string name="lose_score">lose_score</string>
+
+    <!--About-->
+    <string name="pref_header_about">Info</string>
+    <string name="title_activity_about">Info</string>
+
+    <string name="game_rules">Regulile jocului</string>
+    <string name="game_rules_content">X si 0 are doi jucatori (In aceasta aplicatie, unul dintre ei este Calculatorul/Telefonul/AI. Fiecare are un semn asociat (X sau 0). Primul care completeaza o linie/coloana/diagonala castiga.</string>
+
+
+    <string name="difficulty_levels">Niveluri de dificultate</string>
+    <string name="difficulty_levels_content">Utilizatorul poate schimba nivelul de dificultate din Optiuni-Setari: Usor, Mediu sau Greu (sau Imposibil! Muhaha)</string>
+
+    <string name="start_game">Cine muta primul</string>
+    <string name="start_game_content">Primul care muta poate fi calculatorul sau jucatorul. Acest lucru poate fi schimbat din Optiuni-Setari, la inceput jucatorul este cel care incepe.</string>
+
+
+    <string name="reset_scores">Reseteaza scorurile</string>
+    <string name="reset_scores_content">Scorul este salvat cand se termina un joc. Jucatorul poate reseta scorurile, din Optiuni-Reseteaza scorurile.</string>
+
+    <!--Add-->
+    <string name="banner_ad_unit_id">ca-app-pub-7089173816597376/7755351044</string>
+    <string name="title_activity_in_app_purchase">Donatii</string>
+
+    <!--Support-->
+    <string name="supportText0">Speram ca v-a placut jocul nostru!</string>
+    <string name="supportText1">Suntem dezvoltatori independenti, care isi urmeaza visul. Vrem sa facem jocuri si aplicatii cat mai multe si mai frumoase, dar intrucat acest lucru necesita mult timp si resurse, orice ajutor (oricat de mic) este apreciat foarte mult!</string>
+    <string name="supportText2">Pentru fiecare donatie vom face tot posibilul sa va facem sa zambiti cu surpriza noastra si cu ce vom dezvolta in continuare!</string>
+    <string name="supportText3">Cu dragoste, echipa Software Arena! </string>
+
+    <string name="ok_button">Multumim foarte mult! (Inapoi la joc)</string>
+
+    <string name="facebook_app_id">606868019511650</string>
+</resources>

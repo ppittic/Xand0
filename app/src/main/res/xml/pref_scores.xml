@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="reset_scores"
+        android:title="@string/pref_title_reset_scores"
+        android:enabled="true"/>
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_win"
+        android:inputType="number"
+        android:key="@string/win_score"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_win_title"
+        android:selectable="false"/>
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_equal_match"
+        android:inputType="number"
+        android:key="@string/equal_match_score"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_equal_match_title"
+        android:selectable="false"/>
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_lose"
+        android:inputType="number"
+        android:key="@string/lose_score"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_lose_title"
+        android:selectable="false"/>
+</PreferenceScreen>
